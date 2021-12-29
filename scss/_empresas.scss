@@ -1,0 +1,16 @@
+/* Empresas*/
+.gridContainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.sectionEmp {
+    justify-self: center;
+    margin: 4% 0% 0% 0%;
+}
+
+.asideEmp {
+    justify-self: center;
+    margin: 1% 10% 20% 0%;
+}

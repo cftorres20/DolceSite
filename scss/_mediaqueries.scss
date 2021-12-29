@@ -1,0 +1,26 @@
+/* MediaQueries */
+@media screen and (max-width: 768px) {
+
+    .header {
+        width: 100%;
+    }
+
+    .celebraciones {
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+    .intro {
+        margin: 1% 1% 1% 1%;
+    }
+
+    .gridContainer {
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+    }
+
+    .asideEmp {
+        padding: auto;
+        margin-left: 5%;
+    }
+}

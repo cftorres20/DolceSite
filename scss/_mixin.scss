@@ -1,0 +1,8 @@
+@mixin medidas ($ancho, $alto, $arriba, $derecha , $abajo, $izquierda) {
+    width: $ancho;
+    height: $alto;
+    margin-top: $arriba;
+    margin-right: $derecha;
+    margin-bottom: $abajo;
+    margin-left: $izquierda;
+}

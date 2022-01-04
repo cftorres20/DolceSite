@@ -11,46 +11,6 @@ body {
     background-color: rgb(248, 245, 245);
 }
 
-/*.header {
-    position: sticky;
-    top: 0%;
-    z-index: 100%;
-    background-color: #f79ad3;
-
-    nav {
-        float: left;
-
-        ul {
-            list-style-type: none;
-            overflow: hidden;
-
-            li {
-                float: left;
-                font-family: 'Roboto', sans-serif;
-                font-size: 16px;
-
-                a {
-                    display: block;
-                    padding: 10px;
-                    color: #8e518d;
-                    text-decoration: none;
-                    text-align: center;
-                }
-
-            }
-        }
-    }
-
-    h1 {
-        text-align: center;
-    }
-
-    padding-top: 1%;
-    width: 100%;
-    margin: auto;
-    overflow: hidden
-}*/
-
 .header {
     width: 100%;
     position: sticky;

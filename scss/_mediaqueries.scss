@@ -1,10 +1,44 @@
 /* MediaQueries */
 @media screen and (max-width: 768px) {
 
-    .header {
-        width: 100%;
+    /*General*/
+
+    .menu {
+        ul {
+            li {
+                font-size: 13px;
+            }
+        }
     }
 
+    .lista {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .redesHeader {
+        margin-top: 10%;
+    }
+
+    /*Index*/
+
+
+    /*Productos*/
+
+    .sectionPro {
+        width: 100%;
+        margin: 0% 0% 0% 0%;
+    }
+
+    .productos {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    /*Celebraciones*/
     .celebraciones {
         flex-flow: column wrap;
         align-items: center;
@@ -14,13 +48,25 @@
         margin: 1% 1% 1% 1%;
     }
 
+    /*Empresas*/
     .gridContainer {
-        grid-template-columns: 100%;
-        grid-template-rows: 50% 50%;
+        /*grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;*/
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
     }
 
     .asideEmp {
         padding: auto;
+        margin-bottom: 2%;
         margin-left: 5%;
     }
+
+    /*Sobre Mi*/
+    .descripccion {
+        margin-left: 3%;
+    }
+
+
 }

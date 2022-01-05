@@ -1,7 +1,7 @@
 /* MediaQueries */
 @media screen and (max-width: 768px) {
 
-    /*General*/
+    /*GENERAL*/
 
     .menu {
         ul {
@@ -38,7 +38,23 @@
         margin-bottom: 10%;
     }
 
-    /*Index*/
+    /*INDEX*/
+    .carrusel {
+        margin-left: 25%;
+    }
+
+    .imagenLink {
+
+        align-items: center;
+        margin-left: 3%;
+
+        img {
+            width: 300px;
+            height: 150px;
+        }
+    }
+
+
     .resena {
         flex-direction: column;
         align-items: center;
@@ -65,10 +81,7 @@
         }
     }
 
-
-
-
-    /*Productos*/
+    /*PRODUCTOS*/
 
     .sectionPro {
         width: 100%;
@@ -83,7 +96,7 @@
         margin-right: 0%;
     }
 
-    /*Celebraciones*/
+    /*CELEBRACIONES*/
     .celebraciones {
         flex-flow: column wrap;
         align-items: center;
@@ -93,7 +106,7 @@
         margin: 1% 1% 1% 1%;
     }
 
-    /*Empresas*/
+    /*EMPRESAS*/
     .gridContainer {
         /*grid-template-columns: 100%;
         grid-template-rows: 50% 50%;*/
@@ -108,7 +121,7 @@
         margin-left: 5%;
     }
 
-    /*Sobre Mi*/
+    /*SOBRE MI*/
     .descripccion {
         margin-left: 3%;
     }

@@ -233,7 +233,7 @@ body {
 
 /* MediaQueries */
 @media screen and (max-width: 768px) {
-  /*General*/
+  /*GENERAL*/
   .menu ul li {
     font-size: 13px; }
   .lista, .footer {
@@ -251,7 +251,15 @@ body {
     margin-bottom: 10%; }
   .redes {
     margin-bottom: 10%; }
-  /*Index*/
+  /*INDEX*/
+  .carrusel {
+    margin-left: 25%; }
+  .imagenLink {
+    align-items: center;
+    margin-left: 3%; }
+    .imagenLink img {
+      width: 300px;
+      height: 150px; }
   .resena {
     flex-direction: column;
     align-items: center; }
@@ -263,7 +271,7 @@ body {
   .botonGral .boton {
     margin-bottom: 10%;
     font-size: 15px; }
-  /*Productos*/
+  /*PRODUCTOS*/
   .sectionPro {
     width: 100%;
     margin: 0% 0% 0% 0%; }
@@ -273,13 +281,13 @@ body {
     align-items: center;
     margin-left: 0%;
     margin-right: 0%; }
-  /*Celebraciones*/
+  /*CELEBRACIONES*/
   .celebraciones {
     flex-flow: column wrap;
     align-items: center; }
   .intro {
     margin: 1% 1% 1% 1%; }
-  /*Empresas*/
+  /*EMPRESAS*/
   .gridContainer {
     /*grid-template-columns: 100%;
         grid-template-rows: 50% 50%;*/
@@ -290,6 +298,6 @@ body {
     padding: auto;
     margin-bottom: 2%;
     margin-left: 5%; }
-  /*Sobre Mi*/
+  /*SOBRE MI*/
   .descripccion {
     margin-left: 3%; } }

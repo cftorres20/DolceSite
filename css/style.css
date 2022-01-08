@@ -182,7 +182,8 @@ body {
   margin-bottom: 3%; }
 
 .transformacion {
-  transition: transform 2s; }
+  transition: transform 1.5s;
+  margin: 1% 0%; }
 
 .transformacion:hover {
   transform: scale(1.1); }
@@ -281,12 +282,17 @@ body {
   .sectionPro {
     width: 100%;
     margin: 0% 0% 0% 0%; }
+    .sectionPro h3 {
+      margin: 4% 0% 4% 4%; }
   .productos {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     margin-left: 0%;
     margin-right: 0%; }
+  .transformacion {
+    width: 100%;
+    padding: 0%; }
   /*CELEBRACIONES*/
   .celebraciones {
     flex-flow: column wrap;

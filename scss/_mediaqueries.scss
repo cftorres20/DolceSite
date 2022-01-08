@@ -94,6 +94,10 @@
     .sectionPro {
         width: 100%;
         margin: 0% 0% 0% 0%;
+
+        h3 {
+            margin: 4% 0% 4% 4%;
+        }
     }
 
     .productos {
@@ -102,6 +106,11 @@
         align-items: center;
         margin-left: 0%;
         margin-right: 0%;
+    }
+
+    .transformacion {
+        width: 100%;
+        padding: 0%;
     }
 
     /*CELEBRACIONES*/

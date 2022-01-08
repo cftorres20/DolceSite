@@ -90,13 +90,13 @@ body {
   margin-top: 0%;
   margin-right: 5%;
   margin-bottom: 5%;
-  margin-left: 20%;
+  margin-left: 22%;
   /* width: 55%;
     height: 55%;
     margin: 0% 5% 5% 20%;*/ }
 
 .seccion {
-  margin: 10% 0% 10% 0%; }
+  margin: 3% 0% 3% 0%; }
 
 .imagenLink {
   display: flex;
@@ -286,7 +286,9 @@ body {
     flex-flow: column wrap;
     align-items: center; }
   .intro {
-    margin: 1% 1% 1% 1%; }
+    margin: 1% 2% 1% 2%; }
+  .mesaDulce {
+    margin-bottom: 3%; }
   /*EMPRESAS*/
   .gridContainer {
     /*grid-template-columns: 100%;
@@ -300,4 +302,5 @@ body {
     margin-left: 5%; }
   /*SOBRE MI*/
   .descripccion {
-    margin-left: 3%; } }
+    margin-left: 3%;
+    margin-bottom: 3%; } }

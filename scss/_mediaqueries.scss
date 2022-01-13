@@ -1,7 +1,20 @@
 /* MediaQueries */
+
 @media screen and (max-width: 768px) {
 
     /*GENERAL*/
+
+    .header {
+        height: 80px;
+    }
+
+    .logo {
+        position: relative;
+        align-items: center;
+        top: 25px;
+        height: 50px;
+        width: 70px
+    }
 
     .menu {
         ul {
@@ -16,13 +29,72 @@
         flex-direction: column;
     }
 
-    .redesHeader {
-        margin-top: 10%;
+    /*PRUEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
+
+    .separacionMenu {
+        display: grid;
+        grid-template-columns: 0% 15%;
+        column-gap: 120px;
+        margin: 3% 0% 0% 0%;
     }
+
+    .redesHeader {
+        margin-right: 20px;
+        margin-top: -25px;
+
+    }
+
+    .menu {
+        height: 80px;
+        width: 100%;
+    }
+
+    .checkbtn {
+        display: block;
+        padding-left: 20%;
+        margin-top: -45px;
+    }
+
+    .lista {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(254, 238, 238, );
+        top: 80px;
+        right: -100%;
+        text-align: center;
+        /*padding-right: 40px;*/
+        transition: .5s;
+
+        li {
+            /*display: block;
+            line-height: 30px;
+            margin: 50px 0px;
+            line-height: 30px;*/
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-bottom: 20%;
+
+            a {
+                font-size: 20px;
+                font-weight: 500;
+            }
+
+        }
+    }
+
+
+    #check:checked~ul {
+        right: 0;
+    }
+
+    /*PRUEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
 
     .footer {
         flex-direction: column;
         align-items: center;
+
     }
 
     .list {
@@ -65,6 +137,7 @@
 
     .bio {
         margin-left: 1%;
+        margin-top: 20%;
     }
 
     .creadora {
@@ -77,6 +150,8 @@
 
 
     .presentacion {
+
+        margin-top: 4%;
 
         p {
             font-size: 15px;
@@ -92,7 +167,6 @@
     }
 
     /*PRODUCTOS*/
-
     .sectionPro {
         width: 100%;
         margin: 0% 0% 0% 0%;
@@ -106,13 +180,7 @@
         display: flex;
         flex-flow: column wrap;
         align-items: center;
-        margin-left: 0%;
-        margin-right: 0%;
-    }
-
-    .transformacion {
         width: 100%;
-        padding: 0%;
     }
 
     /*CELEBRACIONES*/
@@ -153,6 +221,5 @@
         margin-left: 3%;
         margin-bottom: 3%;
     }
-
 
 }

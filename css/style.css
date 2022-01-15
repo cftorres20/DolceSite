@@ -47,7 +47,6 @@ body {
   flex-direction: row;
   justify-content: space-around; }
 
-/*PRUEBAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
 .checkbtn {
   font-size: 30px;
   color: #a7a7a7;
@@ -60,7 +59,6 @@ body {
 #check {
   display: none; }
 
-/*PRUEBAAAAAAAA*/
 .redesHeader {
   margin-right: 3%; }
 
@@ -103,10 +101,7 @@ body {
   margin-top: 0%;
   margin-right: 5%;
   margin-bottom: 5%;
-  margin-left: 22%;
-  /* width: 55%;
-    height: 55%;
-    margin: 0% 5% 5% 20%;*/ }
+  margin-left: 22%; }
 
 .seccion {
   margin: 3% 0% 3% 0%; }
@@ -115,7 +110,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  /*margin-left: 17.5%;*/
   align-items: center; }
   .imagenLink img {
     padding: 0.5% 0% 0.5% 0%;
@@ -134,10 +128,7 @@ body {
   margin-top: 1%;
   margin-right: 5%;
   margin-bottom: 1%;
-  margin-left: 20%;
-  /*width: 25%;
-    height: 25%;
-    margin: 1% 5% 1% 20%;*/ }
+  margin-left: 20%; }
 
 .bio {
   display: flex;
@@ -230,10 +221,6 @@ body {
   margin: 1% 10% 20% 0%; }
 
 /* Sobre Mi */
-/*.sobreMi {
-    display: flex;
-    flex-direction: row;
-}*/
 .sobreMiImg {
   margin: 5% 5% 5% 5%;
   float: left;
@@ -262,7 +249,6 @@ body {
   .lista {
     display: flex;
     flex-direction: column; }
-  /*PRUEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
   .separacionMenu {
     display: grid;
     grid-template-columns: 0% 15%;
@@ -286,13 +272,8 @@ body {
     top: 80px;
     right: -100%;
     text-align: center;
-    /*padding-right: 40px;*/
     transition: .5s; }
     .lista li {
-      /*display: block;
-            line-height: 30px;
-            margin: 50px 0px;
-            line-height: 30px;*/
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
@@ -302,7 +283,6 @@ body {
         font-weight: 500; }
   #check:checked ~ ul {
     right: 0; }
-  /*PRUEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
   .footer {
     flex-direction: column;
     align-items: center; }
@@ -362,17 +342,15 @@ body {
   .intro {
     margin: 1% 2% 1% 2%; }
   .mesaDulce {
-    margin-bottom: 5%; }
+    margin: 0% 3% 5% 3%; }
   /*EMPRESAS*/
   .gridContainer {
-    /*grid-template-columns: 100%;
-        grid-template-rows: 50% 50%;*/
     display: flex;
     flex-flow: column wrap;
     align-items: center; }
   .asideEmp {
     padding: auto;
-    margin: 5% 0% 5% 0%;
+    margin: 5% 3% 5% 3%;
     height: 100%; }
   .sectionEmp {
     padding: 0px 12px; }

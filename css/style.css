@@ -36,11 +36,19 @@ body {
     overflow: hidden; }
     .menu ul li {
       font-family: 'Roboto', sans-serif;
-      font-size: 16px; }
+      font-size: 17px; }
       .menu ul li a {
         padding: 10px;
         color: #8e518d;
         text-decoration: none; }
+
+.nav-menu-link {
+  padding: 8px 12px;
+  border-radius: 3px; }
+
+.nav-menu-link:hover {
+  background-color: #f7d5f7;
+  transition: .5s; }
 
 .lista {
   display: flex;

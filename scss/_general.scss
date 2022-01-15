@@ -44,7 +44,7 @@ body {
 
         li {
             font-family: 'Roboto', sans-serif;
-            font-size: 16px;
+            font-size: 17px;
 
             a {
                 padding: 10px;
@@ -55,6 +55,15 @@ body {
     }
 }
 
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+.nav-menu-link:hover {
+    background-color: #f7d5f7; 
+    transition: .5s;
+}
 
 .lista {
     display: flex;
